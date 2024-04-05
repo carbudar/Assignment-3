@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="page-container"> <!--page container-->
+        <div class="today"><b>today</b></div>
+
+        <div class="welContent"> <!--content container-->
+
+            <div class="welTitle">            
+                <h2>Before diving deep, please let me know your name and the date today.</h2>
+            </div>
+        
+        
+            <form id="userForm" class="welForm"> <!--input form-->
+                <div id="namePos">
+                    <label for="name"><p><b>Name:</b></p></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br><br>
+                <div id="datePos">
+                    <label for="dayDate"><p><b>Day/Date:</b></p></label>
+                    <input type="date" id="dayDate" name="dayDate" required>
+                </div>
+            </form>
+            
+
+        <br><br>
+    </div>
+    <div class="subButtonContainer"> <!--button container-->
+        
+        <button type="button" id="submitButton">Submit</button>
+
+    </div>
+</div>
+<script src="welcome.js"></script>
+</body>
+</html>

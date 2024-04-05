@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q5+Q6</title>
+</head>
+<body>
+        <div class="page-container">
+          <div class="today"><b>today</b></div>
+       
+          <div class="subButtonContainer">
+            <button type="button" id="submitButton">Submit</button>          
+          </div>
+      
+          <div class="backBtnContainer">
+            <button type="button" class ="backBtn" onclick="window.location.href='page5.html'">Back</button>
+          </div>
+      
+          <div id="prompt61">
+            <h2>Let's talk feelings, what emotions did you face throughout the day?</h2>
+            <p>Check which applied to you from the list below!</p>
+          </div>
+      
+          
+          <div id="input61">
+            <div id="col1">
+              <div>
+                <input type="checkbox" id="happy" onclick="saveHappyCheckedState()"/> <!--happy-->
+                <label for="happy">Happiness</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="excite" onclick="saveExciteCheckedState()"/> <!--happy-->
+                <label for="excite">Excitement</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="sad" onclick="saveSadCheckedState()"/> <!--happy-->
+                <label for="sad">Sadness</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="anger" onclick="saveAngerCheckedState()"/> <!--happy-->
+                <label for="anger">Anger</label>
+            </div>
+        
+    
+          </div>
+          <div id="col2">
+            <div>
+              <input type="checkbox" id="fear" onclick="saveFearCheckedState()"/> <!--happy-->
+              <label for="fear">Fear</label>
+          </div>
+      
+          <div>
+              <input type="checkbox" id="anxious" onclick="saveAnxiousCheckedState()"/> <!--happy-->
+              <label for="anxious">Anxiety</label>
+          </div>
+      
+          <div>
+              <input type="checkbox" id="disappoint" onclick="saveDisappointCheckedState()"/> <!--happy-->
+              <label for="disappoint">Disappointment</label>
+          </div>
+      
+          <div>
+              <input type="checkbox" id="confuse" onclick="saveConfuseCheckedState()"/> <!--happy-->
+              <label for="confuse">Confusion</label>
+          </div>
+          </div>
+
+          <div id="col3">
+            <div>
+              <input type="checkbox" id="affection" onclick="saveAffectionCheckedState()"/> <!--happy-->
+              <label for="affection">Affection</label>
+          </div>
+      
+          <div>
+              <input type="checkbox" id="calm" onclick="saveCalmCheckedState()"/> <!--happy-->
+              <label for="calm">Calmness</label>
+          </div>
+      
+          <div>
+              <input type="checkbox" id="exhaust" onclick="saveExhaustCheckedState()"/> <!--happy-->
+              <label for="exhaust">Exhausted</label>
+          </div>
+      
+          <div>
+              <input type="checkbox" id="embarass" onclick="saveEmbarassCheckedState()"/> <!--happy-->
+              <label for="embarass">Embarassment</label>
+          </div>
+          </div>
+          </div>
+
+          <div id="prompt62">
+            
+            <h3>Why do you think these emotions were triggered?</h3>
+            <p>What occurences caused these responses? Reflect on them below! </p>
+            <textarea id="p6text" rows="10" cols="60"></textarea>
+          </div>
+          
+          </div>
+          <script src="page6.js"></script>
+
+
+</body>
+</html>
